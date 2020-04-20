@@ -1,1 +1,1 @@
-Users in location demo app.
+Demos SPFX for SharePoint Online
