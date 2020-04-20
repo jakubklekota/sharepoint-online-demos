@@ -1,1 +1,1 @@
-API for application
+.NET CORE API gatwey between spfx and database
