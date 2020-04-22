@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\APISPFX_DATA\APISPFX_DATA.csproj" />
+    <ProjectReference Include="..\APISPFX_MODEL\APISPFX_MODEL.csproj" />
+  </ItemGroup>
+
+</Project>
