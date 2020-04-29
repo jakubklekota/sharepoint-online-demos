@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-uil-client-side-solution",
+    "id": "5D8E1472-4912-4D9D-9A62-3166155AE19D",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Windows Azure Active directory",
+        "scope": "User.Read"
+      },
+      {
+        "resource": "APISPFXUiL20200423084035",
+        "scope": "user_impersonation"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-uil.sppkg"
+  }
+}
